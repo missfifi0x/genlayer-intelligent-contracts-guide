@@ -17,8 +17,8 @@
 - [Getting Started: GenLayer Studio (Browser)](#-getting-started-genlayer-studio-browser)
 - [Getting Started: Local Setup (CLI)](#-getting-started-local-setup-cli)
 - [Your First Intelligent Contract](#-your-first-intelligent-contract)
-- [Core Concepts](#-core-concepts)
-- [Contract Examples](#-contract-examples)
+- [The Core Concepts](#-core-concepts)
+- [What are the Contract Examples](#-contract-examples)
 - [Deploying Your Contract](#-deploying-your-contract)
 - [Building a dApp Frontend](#-building-a-dapp-frontend)
 - [Testing](#-testing)
@@ -29,13 +29,13 @@
 
 ## What is GenLayer?
 
-GenLayer is an **AI-native blockchain** — a new class of distributed ledger technology that goes beyond deterministic smart contracts. While:
+GenLayer is an **AI-native blockchain** a new class of distributed ledger technology that goes beyond deterministic smart contracts. While:
 
 - **Bitcoin** delivers trustless money
 - **Ethereum** delivers trustless computation
 - **GenLayer** delivers **trustless decision-making**
 
-GenLayer validators are powered by diverse AI/LLM models that reach consensus on complex, subjective decisions. Contracts can natively access the internet, process natural language, and handle non-deterministic logic all without relying on traditional oracle services.
+GenLayer validators are powered by diverse AI or LLM models that reach consensus on complex, subjective decisions. Contracts can natively access the internet, process natural language, and handle non-deterministic logic, all without relying on traditional oracle services.
 
 ---
 
@@ -46,18 +46,18 @@ Intelligent Contracts are an advanced levels of smart contracts that combine:
 | Feature | Description |
 |---|---|
 |  **LLM Integration** | Use GPT-4, Llama, and other models for natural language reasoning |
-|  **Web Access** | Fetch live internet data directly on-chain, no oracles needed |
+|  **Web Access** | It fetch live internet data directly on-chain, no oracles are needed |
 |  **Python-based** | Write in Python, not Solidity |
 |  **Optimistic Democracy** | Multiple validators reach consensus via AI-driven voting |
-|  **Subjective Decisions** | Handle ambiguity, nuance, and real-world context |
+|  **Subjective Decisions** | Handle ambiguity, nuance, and world context |
 
 ---
 
 ## Prerequisites
 
-### For Browser-Based (Studio) — No setup required!
-- A modern web browser (Chrome, Firefox, Edge)
-- That's it! Go to [studio.genlayer.com/contracts](https://studio.genlayer.com/contracts)
+### For Browser-Based (Studio)  
+- Use modern web browser like, Chrome, Firefox, Edge (microsoft)
+- Then click this on the browser [studio.genlayer.com/contracts](https://studio.genlayer.com/contracts)
 
 ### For Local Development
 - **Docker** 26+  [Install Docker](https://docs.docker.com/get-docker/)
@@ -66,9 +66,9 @@ Intelligent Contracts are an advanced levels of smart contracts that combine:
 
 ---
 
-##  Getting Started: GenLayer Studio (Browser)
+##  GenLayer Studio (Browser)
 
-The fastest way to get started is through the **GenLayer Studio** , a fully browser-based IDE for writing, deploying, and testing Intelligent Contracts.
+The easiest way to get started is through the **GenLayer Studio** , a fully browser based IDE for writing, deploying, and testing Intelligent Contracts.
 
 ### Step 1 ; Open the Studio
 
@@ -80,15 +80,15 @@ You'll see a preloaded environment with:
 - A transaction execution panel
 - Live validator logs
 
-### Step 2 ; Explore Example Contracts
+### Step 2 ; Check out Example Contracts
 
 The Studio comes preloaded with example contracts to help you get started:
 
 - `Storage` ; basic state management
 - `LLM Hello World` ; calling an LLM from a contract
 - `Wizard of Coin` ; AI decision-making game
-- `Fetch Web Content` ; reading live internet data
-- `Football Prediction Market` ; a real-world prediction market example
+- `For Web Content` ; read live internet data
+- `Football Prediction Market` ; a world prediction market example
 
 Click any example in the **Contracts** sidebar to load and explore its code.
 
@@ -140,7 +140,7 @@ http://localhost:8080/
 
 ### Step 4 ; Configure LLM Providers
 
-In the Studio UI, navigate to **Providers** to configure which LLM backends your validators will use (e.g., OpenAI, Ollama, Heurist).
+In the Studio UI, check out  **Providers** to configure which LLM backends your validators will use (e.g., OpenAI, Ollama, Heurist).
 
 ---
 
@@ -197,7 +197,7 @@ class LLMHelloWorld(gl.Contract):
         return self.response
 ```
 
-### Fetching Web Data
+### Accessing Web Data
 
 ```python
 # { "Depends": "py-genlayer:test" }
@@ -245,7 +245,7 @@ GenLayer uses a multi-validator consensus mechanism called **Optimistic Democrac
 Because LLMs are non-deterministic (each validator may produce slightly different outputs), GenLayer uses the Equivalence Principle to define what counts as "the same" answer:
 
 ```python
-# Strict equality — all validators must return the exact same value
+# Strict equality for all validators must return the exact same value
 self.result = gl.eq_principle_strict_eq(my_non_deterministic_block)
 
 # Prompt-based equivalence , LLM judges whether outputs are equivalent
@@ -395,8 +395,8 @@ export default {
 ```
 
 Available networks:
-- `localnet` — Your local Studio instance
-- `testnet` — GenLayer Testnet Bradbury (public)
+- `localnet` ; Your local Studio instance
+- `testnet` ; GenLayer Testnet Bradbury (public)
 
 ---
 
