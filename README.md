@@ -29,7 +29,7 @@
 
 ## What is GenLayer?
 
-GenLayer is an **AI-native blockchain** a new class of distributed ledger technology that goes beyond deterministic smart contracts. While:
+GenLayer is an **AI-native blockchain**a new class of distributed ledger technology that goes beyond deterministic smart contracts. While:
 
 - **Bitcoin** delivers trustless money
 - **Ethereum** delivers trustless computation
