@@ -495,10 +495,10 @@ GenLayer Intelligent Contracts unlock a new generation of applications:
 |  **Prediction Markets** | Self-settle by fetching real-world outcomes from primary sources |
 |  **AI-Governed DAOs** | Natural language proposals analyzed and auto-enforced |
 |  **Autonomous Escrow** | Release payments when fulfillment conditions are verified by AI |
-|  **Compliance Screening** | Real-time KYC/AML verification against sanctions lists |
-|  **Parametric Insurance** | Instant payouts triggered by verifiable real-world events |
+|  **Compliance Screening** |Immediate KYC/AML verification against sanctions lists |
+|  **Parametric Insurance** | Instant payouts triggered by verifiable world events |
 | **ADR (Arbitration)** | Decentralized, low-cost alternative to traditional legal arbitration |
-| **Contract Automation** | AI interprets ambiguous terms like "force majeure" on-chain |
+| **Contract Automation** | AI interprets ambiguous terms like "force majeure" onchain |
 
 ---
 
@@ -536,7 +536,7 @@ my-genlayer-project/
 |  Twitter/X | [@GenLayer](https://x.com/GenLayer) |
 |  Whitepaper | [genlayer.com/whitepaper](https://www.genlayer.com/whitepaper) |
 |  Ask GPT (DeepThought) | [ChatGPT GenLayer Assistant](https://chatgpt.com/g/g-67a1d29d11ec81918639203621210149-deepthought-genlayer) |
-| 🧪 Testnet Info | [genlayer.com/testnet](https://www.genlayer.com/testnet) |
+| Testnet Info | [genlayer.com/testnet](https://www.genlayer.com/testnet) |
 
 ---
 
